@@ -1,7 +1,9 @@
 <?php
-function DireBonjour($nom)
+$nom="Bonjour";
+$nom1="ECOLE2N";
+function DireBonjour($nom,$nom1)
 {
-echo 'Bonjour '.$nom.' !';
+return $nom . $nom1;
 }
-DireBonjour('ECOLE2N');
+echo DireBonjour("Bonjour","ECOLE2N");
 ?>
