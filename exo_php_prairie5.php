@@ -1,4 +1,7 @@
 <?php
-$nom = "ECOLE2N";
+function DireBonjour($nom)
+{
 echo 'Bonjour '.$nom.' !';
+}
+DireBonjour('ECOLE2N');
 ?>
